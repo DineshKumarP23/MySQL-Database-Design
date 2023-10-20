@@ -1,0 +1,12 @@
+Overview
+
+SQL projects online involving the bank accounts management system are essential to practise. The banks are known to provide a variety of services, some of which are real-time. It caters to a larger audience and there are a lot of transactions that are happening every second. Therefore, the database must be designed in a way that can help to query the required information from the database in an efficient and faster way. We will see how we can design the database for a bank accounts management system and its functionalities.
+
+Functionalities
+
+The system should store all the customer details in the customer table. The table is designed in a way that it can store information about individual account holders, joint account holders, merchants, businesses, etc.
+The accounts table will save the details of the accounts of a bank user. The bank account number, IFSC code, account balance, etc., is some of this information.
+The credit card, debit card, gift card, and other card services provided by the bank to its customers will be stored on the card table.
+The transactions made by the user can be saved in the transactions table along with the mode of the transaction, crediting party, debiting party, status, etc.
+The other products and services offered by the bank should also be accommodated in the system like loans, insurance, investments, etc. However, detailed information about these services is part of the broader spectrum. We will cover this cost only if a customer has bought these services from the bank.
+The customer purchases table will link these services and the customers for the ones who have bought them.
